@@ -28,7 +28,7 @@
 
 
 
-import './index.css';
+//import './index.css';
 import mathjs = require('mathjs')
 
 
@@ -36,10 +36,7 @@ console.log('👋 This message is being logged by "renderer.js", included via we
 
 let calcInput = document.getElementById("calc-input") as HTMLInputElement;
 let outLet = document.getElementById("outlet");
-outLet.style.display = "block";
 
-
-calcInput.style.display = "block";
 
 
 const { create, all } = mathjs;
@@ -52,10 +49,9 @@ const bigmath = create(all, {
 calcInput.addEventListener('keypress', (e) => {
     console.log(e.code);
     if (e.code == "Enter") {
-        outLet.innerHTML += "<p class=\"pending-calc\">" + calcInput.value + "</p>";
-
-        outLet.innerHTML += "<p class=\"result\">   " + bigmath.evaluate(calcInput.value) + "</p>";
+        outLet.innerHTML = "<p class=\"pending-calc\">" + calcInput.value + "</p>" +
+                           "<p class=\"result\">   " + bigmath.evaluate(calcInput.value) + "</p>"  + outLet.innerHTML;
         calcInput.value = "";
-        outLet.scrollTop = outLet.scrollHeight;
+       // outLet.scrollTop = outLet.scrollHeight;
     }
 })
