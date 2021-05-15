@@ -55,3 +55,9 @@ calcInput.addEventListener('keypress', (e) => {
        // outLet.scrollTop = outLet.scrollHeight;
     }
 })
+
+
+window.addEventListener('resize', () => {
+    outLet.style.height = (window.outerHeight - 100)+"px";
+
+});

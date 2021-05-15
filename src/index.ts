@@ -23,7 +23,7 @@ const createWindow = (): void => {
   mainWindow.loadURL(MAIN_WINDOW_WEBPACK_ENTRY);
 
   // Open the DevTools.
-  mainWindow.webContents.openDevTools();
+ // mainWindow.webContents.openDevTools();
  // mainWindow.setResizable(false);
   mainWindow.setMenuBarVisibility(false);
   mainWindow.setMenu(null);
@@ -52,15 +52,7 @@ app.on('browser-window-created', (evt, win) => {
 
 
   win.webContents.on('context-menu', (e, props) => {
-    const InputMenu = Menu.buildFromTemplate([{
-      label: '撤销',
-      role: 'undo',
-    }, {
-      label: '重做',
-      role: 'redo',
-    }, {
-      type: 'separator',
-    }, {
+    const InputMenu = Menu.buildFromTemplate([ {
       label: '剪切',
       role: 'cut',
     }, {
@@ -69,12 +61,7 @@ app.on('browser-window-created', (evt, win) => {
     }, {
       label: '粘贴',
       role: 'paste',
-    }, {
-      type: 'separator',
-    }, {
-      label: '全选',
-      role: 'selectAll',
-    },
+    }
     ]);
 
 
