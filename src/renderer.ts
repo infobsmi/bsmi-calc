@@ -49,9 +49,10 @@ const bigmath = create(all, {
 calcInput.addEventListener('keypress', (e) => {
     console.log(e.code);
     if (e.code == "Enter") {
+        let calcResult = bigmath.evaluate(calcInput.value);
         outLet.innerHTML = "<p class=\"pending-calc\">" + calcInput.value + "</p>" +
-                           "<p class=\"result\">   " + bigmath.evaluate(calcInput.value) + "</p>"  + outLet.innerHTML;
-        calcInput.value = "";
+                           "<p class=\"result\">   " + calcResult + "</p>"  + outLet.innerHTML;
+        calcInput.value = calcResult;
        // outLet.scrollTop = outLet.scrollHeight;
     }
 })

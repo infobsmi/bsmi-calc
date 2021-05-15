@@ -1,7 +1,7 @@
 {
   "name": "bsmi-calc",
   "productName": "bsmi-calc",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "My Electron application description",
   "main": ".webpack/main",
   "scripts": {
@@ -16,7 +16,7 @@
     "name": "cnmade",
     "email": "278153+cnmade@users.noreply.github.com"
   },
-  "license": "AGPL 3.0",
+  "license": "AGPL",
   "config": {
     "forge": {
       "packagerConfig": {},
@@ -84,6 +84,7 @@
   },
   "dependencies": {
     "@types/mathjs": "^6.0.12",
-    "electron-squirrel-startup": "^1.0.0"
+    "electron-squirrel-startup": "^1.0.0",
+    "mathjs": "^9.3.2"
   }
 }
