@@ -6,6 +6,11 @@
 ![image](https://user-images.githubusercontent.com/278153/118347493-57e00680-b576-11eb-8b78-d5eb8ed7b499.png)
 
 
+![image](https://user-images.githubusercontent.com/278153/121293540-6247b300-c91e-11eb-90d1-871f206941c7.png)
+
+下载可执行文件，它是32位的。这样占用更少的内存
+
+
 ## 感谢
 
 感谢mathjs项目提供科学计算库
