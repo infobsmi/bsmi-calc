@@ -1,7 +1,7 @@
 {
   "name": "bsmi-calc",
   "productName": "bsmi-calc",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "My Electron application description",
   "main": ".webpack/main",
   "scripts": {
@@ -22,12 +22,15 @@
   "license": "AGPL",
   "config": {
     "forge": {
-      "packagerConfig": {},
+      "packagerConfig": {
+        "icon": "./icon/icon.png"
+      },
       "makers": [
         {
           "name": "@electron-forge/maker-squirrel",
           "config": {
-            "name": "bsmi_calc"
+            "name": "bsmi_calc",
+            "setupIcon": "./icon/icon.ico"
           }
         },
         {
