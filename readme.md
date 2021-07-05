@@ -11,6 +11,11 @@
 下载可执行文件，它是32位的。这样占用更少的内存
 
 
+本应用现己上架Microsoft Store，可以直接从Windows 10及以上官方应用商店下载了
+
+[https://www.microsoft.com/zh-hk/p/bsmi-calc/9n0g74s549wr](https://www.microsoft.com/zh-hk/p/bsmi-calc/9n0g74s549wr)
+
+
 ## 感谢
 
 感谢mathjs项目提供科学计算库
