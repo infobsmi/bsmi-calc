@@ -16,6 +16,10 @@
 [https://www.microsoft.com/zh-hk/p/bsmi-calc/9n0g74s549wr](https://www.microsoft.com/zh-hk/p/bsmi-calc/9n0g74s549wr)
 
 
+2021-07-06 更新：
+
+本应用支持windows 10,以及下一代windows, windows 11
+
 ## 感谢
 
 感谢mathjs项目提供科学计算库
