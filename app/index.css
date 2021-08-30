@@ -1,0 +1,57 @@
+html {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    width: 100%;
+    height: 100%;
+
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+
+}
+
+#outlet {
+    width: 100%;
+    height: 500px;
+    font-size: 18px;
+    overflow-x: auto;
+    overflow-y: auto;
+    display: block;
+    clear:both;
+    margin:0px;
+    padding: 0px;
+}
+
+#calc-input {
+    width: 98%;
+    font-size: 18px;
+    height: 32px;
+    margin: 10px auto;
+    margin-left: 6px;
+    margin-right: 6px;
+    display: block;
+    clear: both;
+}
+
+p {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.pending-calc {
+    font-size: 20px;
+    color: black;
+    text-align: left;
+}
+
+.result {
+    font-size: 24px;
+    color: blue;
+    font-weight: bold;
+    padding-left: 32px;
+    text-align: left;
+}
