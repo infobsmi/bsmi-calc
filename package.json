@@ -1,7 +1,7 @@
 {
   "name": "bsmi-calc",
   "productName": "bsmi-calc",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "高精度计算器",
   "main": "app/main.js",
   "scripts": {
@@ -15,10 +15,10 @@
   },
   "license": "AGPL-3.0",
   "devDependencies": {
-    "electron": "13.2.2",
-    "electron-builder": "^22.11.11"
+    "electron": "15.1.2",
+    "electron-builder": "^22.13.1"
   },
   "dependencies": {
-    "electron-store": "^8.0.0"
+    "electron-store": "^8.0.1"
   }
 }
