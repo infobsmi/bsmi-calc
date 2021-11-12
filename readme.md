@@ -20,6 +20,16 @@
 
 本应用支持windows 10,以及下一代windows, windows 11
 
+## 开发环境
+
+
+```bash
+yarn install
+electron-builder -w
+# 如果是Mac
+electron-builder -m
+```
+
 ## 感谢
 
 感谢mathjs项目提供科学计算库
