@@ -1,7 +1,7 @@
 {
   "name": "bsmi-calc",
   "productName": "bsmi-calc",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "高精度计算器",
   "main": "app/main.js",
   "scripts": {
