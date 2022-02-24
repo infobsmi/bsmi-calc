@@ -26,16 +26,19 @@ body {
 }
 
 #calc-input {
-    width: 98%;
+    width: 91%;
     font-size: 18px;
     height: 32px;
     margin: 10px auto;
     margin-left: 6px;
     margin-right: 6px;
-    display: block;
-    clear: both;
+    display: inline-block;
+   
 }
-
+#clear-btn {
+    height:32px;
+    margin: 10px auto;
+}
 p {
     padding: 0px;
     margin: 0px;

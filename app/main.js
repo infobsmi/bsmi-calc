@@ -60,10 +60,8 @@ app.on('browser-window-created', (evt, win) => {
 
 
   win.webContents.on('context-menu', (e, props) => {
-    const InputMenu = Menu.buildFromTemplate([ {
-      label: '剪切',
-      role: 'cut',
-    }, {
+    const InputMenu = Menu.buildFromTemplate([ 
+       {
       label: '复制',
       role: 'copy',
     }, {
