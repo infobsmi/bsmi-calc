@@ -60,3 +60,6 @@ window.addEventListener('resize', () => {
     outLet.style.height = (window.outerHeight - 100)+"px";
 
 });
+function clearInput() {
+    document.getElementById("calc-input").value = "";
+}
